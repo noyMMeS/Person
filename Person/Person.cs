@@ -8,10 +8,12 @@ namespace Table
 {
     public class Person
     {
-        public string name = "Saymon";
-        public string lastname = "Markov";
+       
         public bool Gender = true;
-        public int weight = 120;
-        public int height = 190;
+       
+      
+        public string phone_numb = "+79809196389";
+
+
     }
 }

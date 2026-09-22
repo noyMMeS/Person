@@ -7,10 +7,12 @@ namespace Table
 {
     public class Employe:Person
     {
-        public string Job_title = "Препод";
-        public string Salary = "100000";
+        public string Job_title = "Программист";
+        public string Salary = "100000$";
         public string workemail = "25300282@inueco.com";
-        public string phone_numb = "+77777777777";
-        public DateTime birthDate = DateTime.Parse("2007 7, 7");
+
+        public DateTime birthDate = DateTime.Parse("2000, 1, 7");
+        public string lastname = "Vokram";
+        public string name = "Emsen";
     }
 }
